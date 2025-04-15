@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <table>
-        <form action="">
-            
-        </form>
-    </table>
+  <h2>Your To-Do List</h2>
+  <button onclick="logout()">Logout</button>
+  <form id="taskForm">
+    <input type="text" id="taskText" placeholder="New Task" required />
+    <button type="submit">Add</button>
+  </form>
+  <select id="filter">
+    <option value="all">All</option>
+    <option value="completed">Completed</option>
+    <option value="incomplete">Incomplete</option>
+  </select>
+  <ul id="taskList"></ul>
+  <script src="app.js"></script>
 </body>
 </html>
