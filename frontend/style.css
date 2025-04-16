@@ -1,0 +1,15 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+  input, button, select {
+    padding: 10px;
+    margin: 5px;
+  }
+  button {
+    cursor: pointer;
+  }
+  
