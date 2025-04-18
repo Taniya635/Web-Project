@@ -35,7 +35,7 @@ if (document.getElementById('loginForm')) {
   });
 }
 
-// Tasks
+// Task
 async function loadTasks() {
   const token = localStorage.getItem('token');
   const res = await fetch(`${API_URL}/tasks`, {
